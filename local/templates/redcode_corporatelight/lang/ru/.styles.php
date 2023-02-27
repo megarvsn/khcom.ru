@@ -1,0 +1,25 @@
+<?php
+$MESS["TITLE_COLOR_1"] = "Цвет текста rgb(33, 36, 25)";
+$MESS["TITLE_COLOR_2"] = "Цвет текста rgb(59, 59, 59)";
+$MESS["TITLE_COLOR_3"] = "Цвет текста rgb(222, 240, 240)";
+$MESS["TITLE_COLOR_4"] = "Цвет текста rgb(252, 69, 101)";
+$MESS["TITLE_COLOR_5"] = "Цвет текста rgb(83, 85, 70)";
+$MESS["TITLE_COLOR_6"] = "Цвет текста rgb(204, 147, 133)";
+$MESS["TITLE_COLOR_7"] = "Цвет текста rgb(135, 185, 186)";
+$MESS["TITLE_BG_COLOR_1"] = "Цвет фона текста rgb(33, 36, 25)";
+$MESS["TITLE_BG_COLOR_2"] = "Цвет фона текста rgb(59, 59, 59)";
+$MESS["TITLE_BG_COLOR_3"] = "Цвет фона текста rgb(222, 240, 240)";
+$MESS["TITLE_BG_COLOR_4"] = "Цвет фона текста rgb(252, 69, 101)";
+$MESS["TITLE_BG_COLOR_5"] = "Цвет фона текста rgb(83, 85, 70)";
+$MESS["TITLE_BG_COLOR_6"] = "Цвет фона текста rgb(204, 147, 133)";
+$MESS["TITLE_BG_COLOR_7"] = "Цвет фона текста rgb(135, 185, 186)";
+$MESS["TITLE_H2"] = "Заголовок H2 (redcode)";
+$MESS["TITLE_H3"] = "Заголовок H3 (redcode)";
+$MESS["TITLE_H4"] = "Заголовок H4 (redcode)";
+$MESS["FULL_IMAGE"] = "Картинка 100% (redcode)";
+$MESS["STANDART_TEXT"] = "Абзац (redcode)";
+$MESS["WIDTH_33"] = "Блок шириной 33%";
+$MESS["WIDTH_50"] = "Блок шириной 50%";
+$MESS["WIDTH_66"] = "Блок шириной 66%";
+$MESS["WIDTH_100"] = "Блок во всю ширину";
+$MESS["IMG_FLUID"] = "Растянуть картинку";

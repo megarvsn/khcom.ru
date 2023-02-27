@@ -1,0 +1,27 @@
+@import 'variables'; // Variables
+.d-flex {display: flex;}
+.mt--50 {margin-top: -50px;}
+.buttonTop {background: $color4}
+h2, h3, h4, p {margin-bottom: 24px;}
+.white {color: $white;}
+body {background: $color2;font-family: 'Roboto', sans-serif;font-size: 16px;
+  &.detailed {
+    @import "header";
+    @import "footer";
+    @import "modal";
+  }
+}
+.d-none {display: none}
+abbr {text-decoration: none !important;}
+
+@import "breadcrumb";
+@import "menu-left";
+@import "main-slider";
+@import "main-advantages";
+@import "main-special";
+@import "main-services";
+@import "main-map";
+@import "header-box";
+@import "left";
+@import "forms";
+@import "pages";

@@ -1,0 +1,42 @@
+// Header styles
+header {background: $color1 !important;padding: 0 30px;
+  .headerWrap {padding: 27px 0;}
+  .logo, .logo_detail {margin-right: 5px;
+    img {height: 70px;max-height: unset}
+    @media (max-width: 580px) {margin: 0;display: inline-block;margin-right: 20px;}
+  }
+  .postLogo {height: 70px;
+    .d-flex {flex-direction: column;justify-content: flex-end;height: inherit;
+      @media (max-width: 440px) {justify-content: center;}
+      .topMenu {opacity: 1;color: $white;margin: 0 0 7px 0;
+        &:hover {opacity: .7}
+        &.header-phone {margin-bottom: 32px;
+          $padding-phone-x: 3px;
+          a {font-size: 19.22px;background: $color4; color: $white;font-weight: 600;letter-spacing: -.1;padding-right: $padding-phone-x;
+            span {background: $white;color: $black;padding-left: $padding-phone-x}
+          }
+          &:hover{opacity: 1;}
+          @media (max-width: 1023px) {display: none}
+        }
+        @media (min-width: 1024px) {
+          &.materialIcons {display: none}
+        }
+        @media (max-width: 440px) {margin: 0;}
+      }
+      .logoText {width: 155.28px;line-height: 0;
+        @media (max-width: 440px) {display: none}
+      }
+    }
+  }
+  .headerMenu {float: right; height: 70px;
+    .headerMenuWrapper {display: flex;flex-wrap: wrap;flex-direction: row;height: 100%;align-content: center;
+      .colMenu {margin-right: 100px;
+        a {display: block;color: $white;
+          &:hover {opacity: .7}
+          &:first-child {margin-bottom: 10px;}
+        }
+        &:last-child {margin-right: 0}
+      }
+    }
+  }
+}

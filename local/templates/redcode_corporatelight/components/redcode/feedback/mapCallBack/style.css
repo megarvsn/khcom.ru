@@ -1,0 +1,25 @@
+
+.mapCallback{padding: 40px 50px 29px 50px; background: #fff; position: relative; box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 60px 0px, rgba(0, 0, 0, 0.4) 0px 0px 1px 0px;}
+	.mapCallback h3{color: #191919; font-size: 23px; font-weight: 700; margin: 0 0 70px 0;}
+	.mapCallback_wrapper{position: relative;}
+			
+			.mapCallback .modalBody > div.miniBlock{display: inline-block; vertical-align: top; width: 45%; margin: 0 10% 0 0;}
+				.mapCallback .modalBody > div.miniBlock:nth-child(2n){margin-right: 0;}
+			.mapCallback .modalBody > div.bigBlock{}
+		
+				.mapCallback .modalBody > div > div{margin: 0 0 73px 0; position: relative; border-bottom: 1px solid #E4E4E4;}
+				.mapCallback .modalBody > div > div:last-child{}
+					 .mapCallback .messageField{min-height: 100px;}
+
+
+.mapCallback .buttonAnimation{position: absolute; right: -37px; border-radius: 50%; bottom: 66px; background: #fff; width: 73px;
+	height: 73px; transition: background .25s;
+}
+	.mapCallback .modalSend{color: #fff; font-size: 28px; padding: 0 0 0 6px; line-height: 73px; background-color: transparent; height: 73px;
+		border: 0; cursor: pointer; outline: none; width: 73px; background: #EF6C00; box-shadow: 0 2px 8px rgba(239,108,0, .27);
+		border-radius: 50%; -webkit-appearance: none;
+	}
+
+	.mapCallback .moreAnimationBlock{display: none; top: 49%;}
+		.mapCallback .moreAnimationBlock:after{display: none;}
+		.mapCallback .moreAnimationBlock:before{height: 44px; width: 44px; margin: -23px 0 0 -23px;}

@@ -1,0 +1,10 @@
+// Left menu sty,led
+.leftMenu {margin: 44px 0;
+  li {list-style-type: none; font-weight: 500; font-size: 15px; cursor: pointer; transition: background .15s;margin-bottom: 12px !important;
+    &:last-child {margin: 0;}
+    a {color: #555; padding: 14px 23px 14px 23px; display: block;
+      &:hover {background: #EAEAEA;}
+    }
+    &.selected a{background: #E2E2E2;}
+  }
+}

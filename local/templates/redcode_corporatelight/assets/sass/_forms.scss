@@ -1,0 +1,13 @@
+// Forms styles
+.mapCallback {background: $color5;padding: 50px;
+  h3 {color: $white;font-size: 28px;margin: 0 0 15px 0;}
+  p {color: $white;font-size: 18px;margin: 0 0 70px 0;}
+  .inputField {background: $color6;padding: 5px;box-sizing: border-box;}
+  .messageField {background: $color6;padding: 5px;}
+  .inputLabel {color: $black;margin: 5px;}
+  .changeInput {
+    .inputLabel {color: $color4;}
+  }
+  .personalInfo label {color: $white}
+  .modalSend {background: $color4;}
+}

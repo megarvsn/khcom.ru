@@ -1,0 +1,44 @@
+// Maim page slider styles
+$heightSlide: 700px;
+$heightSlide1000: 400px;
+$heightSlide600: 300px;
+$heightSlide400: 200px;
+
+$fontSizeSliderBase: 90px;
+$fontSizeSliderBase1000: 64px;
+$fontSizeSliderBase600: 44px;
+$fontSizeSliderBase400: 34px;
+.indexSlider {
+  .slide {height: $heightSlide;
+    @media (max-width: 1000px) {height: $heightSlide1000;}
+    @media (max-width: 600px) {height: $heightSlide600;}
+    @media (max-width: 400px) {height: $heightSlide400;}
+  }
+  .sliderInside {position: relative;bottom: $heightSlide/2;margin-bottom: -$heightSlide/2;
+    @media (max-width: 1000px) {bottom: $heightSlide1000/2;margin-bottom: -$heightSlide1000/2;}
+    @media (max-width: 600px) {bottom: $heightSlide600/2;margin-bottom: -$heightSlide600/2;}
+    @media (max-width: 400px) {bottom: $heightSlide400/2;margin-bottom: -$heightSlide400/2;}
+    .slideText {display: block;width: unset;max-width: unset;font-weight: 900;letter-spacing: -3px;line-height: 1.2;font-size: $fontSizeSliderBase;
+      @media (max-width: 1000px) {font-size: $fontSizeSliderBase1000;}
+      @media (max-width: 600px) {font-size: $fontSizeSliderBase600;}
+      @media (max-width: 400px) {font-size: $fontSizeSliderBase400;}
+      .bg-color-4 {color: $black;}
+    }
+    .slideTextDetail {display: block;width: unset !important;
+      > div {float: none;width: unset;max-width: unset;
+        p, a {margin-bottom: 0;letter-spacing: .1px;line-height: 1;font-size: 20px;font-weight: 700;display: inline;
+          font-size: $fontSizeSliderBase/2;padding: 0;box-shadow: none;background: inherit;color: $color3;
+          border-radius: 0;text-transform: none;
+          @media (max-width: 1000px) {font-size: $fontSizeSliderBase1000/2;}
+          @media (max-width: 600px) {font-size: $fontSizeSliderBase600/2;}
+          @media (max-width: 400px) {font-size: $fontSizeSliderBase400/2;}
+          span {color: $color3;}
+        }
+        a:hover {opacity: .5}
+      }
+    }
+  }
+  .sliderControls {z-index: 300;bottom: -5%;
+    .owlDots{display: none;}
+  }
+}

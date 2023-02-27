@@ -1,0 +1,9 @@
+// Menu left styles
+.leftMenu {
+  li {margin-bottom: 24px;font-size: 16px;
+    a {color: $color4;padding: 14px 16px;
+      &:hover {background: $color4;color: $white;}
+    }
+    &.selected a {background: $color4;color: $white;}
+  }
+}

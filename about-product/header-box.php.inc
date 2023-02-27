@@ -1,0 +1,1 @@
+<h1><span class="bg-color-4">&nbsp;О продукте&nbsp;</span><span class="bg-color-1"> &nbsp;</span></h1>

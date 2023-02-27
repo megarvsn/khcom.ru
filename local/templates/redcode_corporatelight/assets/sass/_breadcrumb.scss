@@ -1,0 +1,11 @@
+// Breadcrumbs styles
+.breadcrumb.mainTitle {padding-bottom: 0;
+  @media (max-width: 580px) {display: none}
+  .breadwrap {overflow: hidden;max-width: 1200px;margin: 0 auto;
+    .bx-breadcrumb-item {float: left;color: $color2;font-size: 1rem;font-weight: 500;
+      a, span {color: $color2;font-size: 1rem}
+      a:hover{opacity: .8;}
+      :last-child{margin: 0;}
+    }
+  }
+}

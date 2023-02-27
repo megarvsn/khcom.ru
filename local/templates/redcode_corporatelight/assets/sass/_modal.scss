@@ -1,0 +1,7 @@
+// Modal styles
+.modalMenu {
+  .menuBackground {background: $color7;}
+  .menuTopInfo div a {background: $color4; color: $white;text-decoration: none;
+    span {display: inline; background: $black;color: $white;}
+  }
+}

@@ -1,0 +1,1 @@
+<h1><span style="caret-color: #ffffff; background-color: #fc4565;">&nbsp; &nbsp;Так&nbsp;<span class="bg-color-1">пишут &nbsp;</span></span></h1>

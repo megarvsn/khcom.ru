@@ -1,0 +1,4 @@
+// Блок карты
+[class*="ymaps-2"][class*="-ground-pane"]{filter: grayscale(1) brightness(.6) contrast(1.6);}
+.wrapper_map {top: 0;background: $color2;}
+.map {background: $color2 !important;}
